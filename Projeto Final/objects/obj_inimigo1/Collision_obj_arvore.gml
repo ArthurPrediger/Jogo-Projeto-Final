@@ -24,7 +24,7 @@ direction = point_direction(x, y, 580, 350);
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 02FE5396
-/// @DnDArgument : "value" "-10"
+/// @DnDArgument : "value" "-2"
 /// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "var" "vida_arvore"
-global.vida_arvore += -10;
+global.vida_arvore += -2;
