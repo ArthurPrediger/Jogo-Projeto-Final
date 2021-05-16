@@ -5,7 +5,6 @@
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"order":18,},
     {"id":{"name":"obj_inicializador","path":"objects/obj_inicializador/obj_inicializador.yy",},"order":21,},
     {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},"order":23,},
-    {"id":{"name":"Sprite55555","path":"sprites/Sprite55555/Sprite55555.yy",},"order":25,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":15,},
     {"id":{"name":"spr_tiro_energia","path":"sprites/spr_tiro_energia/spr_tiro_energia.yy",},"order":22,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":16,},
@@ -53,7 +52,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.558",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Projeto Final",
