@@ -3,7 +3,7 @@
 /// @DnDHash : 677D7101
 /// @DnDInput : 6
 /// @DnDArgument : "value" "2"
-/// @DnDArgument : "value_1" "2000"
+/// @DnDArgument : "value_1" "100"
 /// @DnDArgument : "value_3" "1"
 /// @DnDArgument : "value_4" "100"
 /// @DnDArgument : "value_5" "100"
@@ -14,7 +14,7 @@
 /// @DnDArgument : "var_4" "vida_arvore"
 /// @DnDArgument : "var_5" "estamina_jogador"
 global.vida_inimigo1 = 2;
-global.energia_armadura = 2000;
+global.energia_armadura = 100;
 global.direcao_tiro = 0;
 global.pode_atirar = 1;
 global.vida_arvore = 100;
