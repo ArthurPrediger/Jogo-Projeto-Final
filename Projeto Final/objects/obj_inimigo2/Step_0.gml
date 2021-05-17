@@ -41,9 +41,9 @@ if(l577DA1BB_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 2A71AC5D
 		/// @DnDParent : 3D6DD6F0
-		/// @DnDArgument : "x" "580"
-		/// @DnDArgument : "y" "350"
-		direction = point_direction(x, y, 580, 350);
+		/// @DnDArgument : "x" "obj_arvore.x"
+		/// @DnDArgument : "y" "obj_arvore.y"
+		direction = point_direction(x, y, obj_arvore.x, obj_arvore.y);
 	
 		/// @DnDAction : YoYo Games.Movement.Set_Speed
 		/// @DnDVersion : 1

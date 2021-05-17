@@ -17,9 +17,9 @@ speed = 0.5;
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
 /// @DnDHash : 74EDA4C9
-/// @DnDArgument : "x" "580"
-/// @DnDArgument : "y" "350"
-direction = point_direction(x, y, 580, 350);
+/// @DnDArgument : "x" "obj_arvore.x"
+/// @DnDArgument : "y" "obj_arvore.y"
+direction = point_direction(x, y, obj_arvore.x, obj_arvore.y);
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
