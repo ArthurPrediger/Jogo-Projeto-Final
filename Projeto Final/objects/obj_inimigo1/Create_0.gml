@@ -23,18 +23,16 @@ if(l320B6B20_0)
 	speed = 6;
 }
 
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 0DD960AA
-/// @DnDArgument : "var" "obj_arvore.x"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "obj_inimigo1.x"
-if(obj_arvore.x > obj_inimigo1.x)
-{
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 19467BDF
-	/// @DnDParent : 0DD960AA
-	sprite_index = noone;
-	image_index = 0;
+/// @DnDHash : 53907B0F
+/// @DnDArgument : "code" "if(hspeed > 0){$(13_10)	sprite_index = spr_inimigo1_esq;$(13_10)	image_index = 30;$(13_10)}$(13_10)$(13_10)if(hspeed < 0){$(13_10)	sprite_index = spr_inimigo1_dir;$(13_10)	image_index = 30;$(13_10)}$(13_10)"
+if(hspeed > 0){
+	sprite_index = spr_inimigo1_esq;
+	image_index = 30;
+}
+
+if(hspeed < 0){
+	sprite_index = spr_inimigo1_dir;
+	image_index = 30;
 }

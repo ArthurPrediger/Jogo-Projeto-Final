@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_background",
-    "path": "sprites/Spr_background/Spr_background.yy",
+    "name": "spr_inimigo1_dir",
+    "path": "sprites/spr_inimigo1_dir/spr_inimigo1_dir.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_inimigo1_dir",
+  "name": "obj_inimigo1",
   "tags": [],
   "resourceType": "GMObject",
 }

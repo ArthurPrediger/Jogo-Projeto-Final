@@ -7,7 +7,7 @@
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"Spr_bloco","path":"sprites/Spr_bloco/Spr_bloco.yy",},"order":2,},
     {"id":{"name":"Obj_inimigo_terrestre","path":"objects/Obj_inimigo_terrestre/Obj_inimigo_terrestre.yy",},"order":8,},
-    {"id":{"name":"obj_inimigo1_dir","path":"objects/obj_inimigo1_dir/obj_inimigo1_dir.yy",},"order":4,},
+    {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"order":4,},
     {"id":{"name":"time_inimigov1","path":"timelines/time_inimigov1/time_inimigov1.yy",},"order":0,},
     {"id":{"name":"Obj_rastro_inimigo_terrestre","path":"objects/Obj_rastro_inimigo_terrestre/Obj_rastro_inimigo_terrestre.yy",},"order":9,},
     {"id":{"name":"obj_inicializador","path":"objects/obj_inicializador/obj_inicializador.yy",},"order":3,},
