@@ -2,8 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 4771A74A
 /// @DnDArgument : "value" "10"
+/// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "var" "energia_armadura"
-global.energia_armadura = 10;
+global.energia_armadura += 10;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
