@@ -14,3 +14,12 @@ y += 0;
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "direcao_tiro"
 global.direcao_tiro = 1;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 72A26841
+/// @DnDArgument : "imageind" "30"
+/// @DnDArgument : "spriteind" "spr_player_arma1_direita"
+/// @DnDSaveInfo : "spriteind" "spr_player_arma1_direita"
+sprite_index = spr_player_arma1_direita;
+image_index = 30;

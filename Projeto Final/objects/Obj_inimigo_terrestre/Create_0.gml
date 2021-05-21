@@ -1,3 +1,13 @@
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+/// @DnDVersion : 1
+/// @DnDHash : 5AFF9EB8
+/// @DnDArgument : "timeline" "time_rastro"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "timeline" "time_rastro"
+timeline_index = time_rastro;
+timeline_loop = 1;
+timeline_running = 1;
+
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 056DBD49

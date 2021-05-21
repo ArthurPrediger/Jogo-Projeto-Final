@@ -42,9 +42,8 @@ if(global.energia_armadura >= 5)
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
-		/// @DnDHash : 40684CE1
+		/// @DnDHash : 27D9CF89
 		/// @DnDParent : 46D2F3FF
-		/// @DnDArgument : "steps" "15"
-		alarm_set(0, 15);
+		alarm_set(0, 30);
 	}
 }
