@@ -1,3 +1,19 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 67DBDACB
+/// @DnDArgument : "value" "5"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "energia_armadura"
+global.energia_armadura += 5;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 66121687
+/// @DnDArgument : "value" "3"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "pontos"
+global.pontos += 3;
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 412C51FB

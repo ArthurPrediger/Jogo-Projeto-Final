@@ -6,6 +6,7 @@
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},"order":5,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"Spr_bloco","path":"sprites/Spr_bloco/Spr_bloco.yy",},"order":2,},
+    {"id":{"name":"fase2","path":"rooms/fase2/fase2.yy",},"order":1,},
     {"id":{"name":"Obj_inimigo_terrestre","path":"objects/Obj_inimigo_terrestre/Obj_inimigo_terrestre.yy",},"order":8,},
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"order":4,},
     {"id":{"name":"Spr_player_arma1_esquerda","path":"sprites/Spr_player_arma1_esquerda/Spr_player_arma1_esquerda.yy",},"order":13,},
@@ -31,7 +32,7 @@
     {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},"order":0,},
     {"id":{"name":"spr_inimigo2","path":"sprites/spr_inimigo2/spr_inimigo2.yy",},"order":5,},
     {"id":{"name":"spr_inimigo1_esq","path":"sprites/spr_inimigo1_esq/spr_inimigo1_esq.yy",},"order":11,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"fase1","path":"rooms/fase1/fase1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -47,7 +48,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"fase1","path":"rooms/fase1/fase1.yy",},},
+    {"roomId":{"name":"fase2","path":"rooms/fase2/fase2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
