@@ -8,6 +8,12 @@ timeline_index = time_rastro;
 timeline_loop = 1;
 timeline_running = 1;
 
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 3CF04403
+/// @DnDArgument : "steps" "300"
+alarm_set(0, 300);
+
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 056DBD49
