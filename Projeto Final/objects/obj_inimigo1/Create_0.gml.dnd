@@ -1,1 +1,13 @@
+<<<<<<< Updated upstream
 <Layouts><Layout layout_name="DnDWorkspace" layout_guid="3cc48085-1a75-4d16-bc32-19d681e864ef" toolbox_size="25%" toolbox_anchor="Last" story_size="0px" story_collapsed="True"><Workspace zoom="0.61" pan="[-283.1558, 149.9426]" /><Node hash="320B6B20" left="71" top="218" width="250" height="95" /><Node hash="339E088F" left="196" top="323" width="250" height="95" /><Node hash="1D11E9A6" left="202" top="428" width="232" height="95" /><Node hash="53907B0F" left="-184" top="533" width="760" height="465" collapsed="True" /></Layout></Layouts>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<Layouts><Layout layout_name="DnDWorkspace" layout_guid="60dde094-e671-4135-993e-fdb05d72961f" toolbox_size="25%" toolbox_anchor="Last" story_size="0px" story_collapsed="True"><Workspace zoom="1" pan="[-178.5, 200]" /><Node hash="320B6B20" left="71" top="218" width="250" height="95" /><Node hash="339E088F" left="196" top="323" width="244" height="95" /><Node hash="1D11E9A6" left="202" top="428" width="232" height="95" /><Node hash="53907B0F" left="-184" top="533" width="760" height="465" collapsed="True" /></Layout></Layouts>
+=======
+<Layouts><Layout layout_name="DnDWorkspace" layout_guid="3cc48085-1a75-4d16-bc32-19d681e864ef" toolbox_size="25%" toolbox_anchor="Last" story_size="0px" story_collapsed="True"><Workspace zoom="0.61" pan="[-283.1558, 149.9426]" /><Node hash="320B6B20" left="71" top="218" width="250" height="95" /><Node hash="339E088F" left="196" top="323" width="250" height="95" /><Node hash="1D11E9A6" left="202" top="428" width="232" height="95" /><Node hash="53907B0F" left="-184" top="533" width="760" height="465" collapsed="True" /></Layout></Layouts>
+>>>>>>> 53a33ab1b1a3876402d3bc788cb3d1af221c1340
+=======
+<Layouts><Layout layout_name="DnDWorkspace" layout_guid="3cc48085-1a75-4d16-bc32-19d681e864ef" toolbox_size="25%" toolbox_anchor="Last" story_size="0px" story_collapsed="True"><Workspace zoom="0.61" pan="[-283.1558, 149.9426]" /><Node hash="320B6B20" left="71" top="218" width="250" height="95" /><Node hash="339E088F" left="196" top="323" width="250" height="95" /><Node hash="1D11E9A6" left="202" top="428" width="232" height="95" /><Node hash="53907B0F" left="-184" top="533" width="760" height="465" collapsed="True" /></Layout></Layouts>
+>>>>>>> 53a33ab1b1a3876402d3bc788cb3d1af221c1340
+>>>>>>> Stashed changes
