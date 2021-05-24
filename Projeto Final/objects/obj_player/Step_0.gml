@@ -4,11 +4,7 @@
 /// @DnDArgument : "var" "global.estamina_jogador"
 if(global.estamina_jogador == 0)
 {
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 429D906F
-	/// @DnDParent : 45ABB700
-	speed = 0;
+
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
