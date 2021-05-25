@@ -1,14 +1,5 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 45ABB700
-/// @DnDArgument : "var" "global.estamina_jogador"
-if(global.estamina_jogador == 0)
-{
-
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
 /// @DnDHash : 56B57164
 /// @DnDArgument : "var" "global.encher"
 /// @DnDArgument : "value" "true"
