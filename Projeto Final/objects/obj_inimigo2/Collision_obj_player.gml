@@ -9,11 +9,10 @@ if(hspeed > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 50DCD9E7
 	/// @DnDParent : 002B2F17
-	/// @DnDArgument : "x" "-40"
-	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "x" "obj_inimigo2.x - 100"
 	/// @DnDArgument : "y" "0"
 	/// @DnDArgument : "y_relative" "1"
-	x += -40;
+	x = obj_inimigo2.x - 100;
 	y += 0;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
@@ -29,7 +28,8 @@ if(hspeed > 0)
 	/// @DnDParent : 002B2F17
 	/// @DnDArgument : "x" "obj_player.x"
 	/// @DnDArgument : "y" "obj_player.y"
-	direction = point_direction(x, y, obj_player.x, obj_player.y);
+	/// @DnDArgument : "y_relative" "1"
+	direction = point_direction(x, y, obj_player.x, y + obj_player.y);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -43,11 +43,10 @@ if(hspeed < 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 26D7F450
 	/// @DnDParent : 78520E30
-	/// @DnDArgument : "x" "40"
-	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "x" "obj_inimigo2.x + 100"
 	/// @DnDArgument : "y" "0"
 	/// @DnDArgument : "y_relative" "1"
-	x += 40;
+	x = obj_inimigo2.x + 100;
 	y += 0;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed

@@ -13,22 +13,4 @@ if(global.encher == true)
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "estamina_jogador"
 	global.estamina_jogador += 0.1;
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 1E8DD077
-	/// @DnDParent : 56B57164
-	/// @DnDArgument : "var" "global.encher"
-	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "100"
-	if(global.encher >= 100)
-	{
-		/// @DnDAction : YoYo Games.Common.Set_Global
-		/// @DnDVersion : 1
-		/// @DnDHash : 05CBB0F9
-		/// @DnDParent : 1E8DD077
-		/// @DnDArgument : "value" "false"
-		/// @DnDArgument : "var" "energia_baixa"
-		global.energia_baixa = false;
-	}
 }

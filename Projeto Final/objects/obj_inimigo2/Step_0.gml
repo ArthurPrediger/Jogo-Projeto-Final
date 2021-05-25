@@ -26,7 +26,7 @@ if(l577DA1BB_0)
 	
 		/// @DnDAction : YoYo Games.Movement.Set_Speed
 		/// @DnDVersion : 1
-		/// @DnDHash : 001DD600
+		/// @DnDHash : 13AD2501
 		/// @DnDParent : 285E01E3
 		/// @DnDArgument : "speed" "3"
 		speed = 3;
@@ -45,12 +45,5 @@ if(l577DA1BB_0)
 		/// @DnDArgument : "x" "obj_arvore.x"
 		/// @DnDArgument : "y" "obj_arvore.y"
 		direction = point_direction(x, y, obj_arvore.x, obj_arvore.y);
-	
-		/// @DnDAction : YoYo Games.Movement.Set_Speed
-		/// @DnDVersion : 1
-		/// @DnDHash : 4062D01B
-		/// @DnDParent : 3D6DD6F0
-		/// @DnDArgument : "speed" "3"
-		speed = 3;
 	}
 }
