@@ -12,7 +12,6 @@
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"order":4,},
     {"id":{"name":"Spr_player_arma1_esquerda","path":"sprites/Spr_player_arma1_esquerda/Spr_player_arma1_esquerda.yy",},"order":13,},
     {"id":{"name":"Obj_explo","path":"objects/Obj_explo/Obj_explo.yy",},"order":11,},
-    {"id":{"name":"time_encher_estamina","path":"timelines/time_encher_estamina/time_encher_estamina.yy",},"order":2,},
     {"id":{"name":"Spr_explo","path":"sprites/Spr_explo/Spr_explo.yy",},"order":12,},
     {"id":{"name":"time_inimigov1","path":"timelines/time_inimigov1/time_inimigov1.yy",},"order":0,},
     {"id":{"name":"obj_gerenciador_estamina","path":"objects/obj_gerenciador_estamina/obj_gerenciador_estamina.yy",},"order":15,},

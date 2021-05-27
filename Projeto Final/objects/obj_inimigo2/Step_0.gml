@@ -13,8 +13,8 @@ if(l577DA1BB_0)
 	/// @DnDParent : 577DA1BB
 	/// @DnDArgument : "var" "global.estamina_jogador"
 	/// @DnDArgument : "op" "2"
-	/// @DnDArgument : "value" "9"
-	if(global.estamina_jogador > 9)
+	/// @DnDArgument : "value" "15"
+	if(global.estamina_jogador > 15)
 	{
 		/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 		/// @DnDVersion : 1

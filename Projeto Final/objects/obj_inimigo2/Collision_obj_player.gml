@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 4B136B86
+/// @DnDArgument : "value" "-10"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "estamina_jogador"
+global.estamina_jogador += -10;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 002B2F17
