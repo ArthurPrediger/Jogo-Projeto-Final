@@ -1,13 +1,5 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 700492A9
-/// @DnDArgument : "value" "5"
-/// @DnDArgument : "value_relative" "1"
-/// @DnDArgument : "var" "energia_armadura"
-global.energia_armadura += 5;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
 /// @DnDHash : 49372D8D
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "value_relative" "1"

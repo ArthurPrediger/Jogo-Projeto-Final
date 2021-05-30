@@ -3,8 +3,8 @@
 /// @DnDHash : 2085A78C
 /// @DnDArgument : "var" "global.estamina_jogador"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "15"
-if(global.estamina_jogador > 15)
+/// @DnDArgument : "value" "10"
+if(global.estamina_jogador > 10)
 {
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
