@@ -21,8 +21,8 @@ instance_create_layer(x + 0, y + 0, "Instances", Obj_explo);
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 74FEB337
-/// @DnDArgument : "xpos" "random(room_width)"
-/// @DnDArgument : "ypos" "157"
+/// @DnDArgument : "xpos" "2274"
+/// @DnDArgument : "ypos" "1075"
 /// @DnDArgument : "objectid" "Obj_inimigo_kami"
 /// @DnDSaveInfo : "objectid" "Obj_inimigo_kami"
-instance_create_layer(random(room_width), 157, "Instances", Obj_inimigo_kami);
+instance_create_layer(2274, 1075, "Instances", Obj_inimigo_kami);
