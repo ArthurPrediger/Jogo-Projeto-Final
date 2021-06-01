@@ -23,22 +23,14 @@ if(hspeed < 0)
 	/// @DnDArgument : "speed" "0.5"
 	speed = 0.5;
 
-	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 74EDA4C9
-	/// @DnDParent : 1B7D1967
-	/// @DnDArgument : "x" "obj_arvore.x"
-	/// @DnDArgument : "y" "obj_arvore.y"
-	direction = point_direction(x, y, obj_arvore.x, obj_arvore.y);
-
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 02FE5396
 	/// @DnDParent : 1B7D1967
-	/// @DnDArgument : "value" "-2"
+	/// @DnDArgument : "value" "-1"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "vida_arvore"
-	global.vida_arvore += -2;
+	global.vida_arvore += -1;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -66,19 +58,12 @@ if(hspeed > 0)
 	/// @DnDArgument : "speed" "0.5"
 	speed = 0.5;
 
-	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 41C6A4A1
-	/// @DnDParent : 4224EA83
-	/// @DnDArgument : "x" "obj_arvore.x"
-	/// @DnDArgument : "y" "obj_arvore.y"
-	direction = point_direction(x, y, obj_arvore.x, obj_arvore.y);
-
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 74F058F7
 	/// @DnDParent : 4224EA83
+	/// @DnDArgument : "value" "-1"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "vida_arvore"
-	global.vida_arvore += 0;
+	global.vida_arvore += -1;
 }
