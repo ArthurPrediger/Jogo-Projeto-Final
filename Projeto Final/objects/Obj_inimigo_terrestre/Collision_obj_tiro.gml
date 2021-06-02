@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 55159C69
+/// @DnDArgument : "value" "10"
+/// @DnDArgument : "var" "pontos"
+global.pontos = 10;
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 6CEC43C2
