@@ -63,3 +63,36 @@ draw_sprite(Spr_arvore_hud, 0, 900, 2150);
 /// @DnDArgument : "mincol" "$FF000089"
 /// @DnDArgument : "maxcol" "$FF007F02"
 draw_healthbar(1050, 2170, 1600, 2250, global.vida_arvore, $FFFFFFFF & $FFFFFF, $FF000089 & $FFFFFF, $FF007F02 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF000000>>24) != 0));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 220D41CD
+/// @DnDArgument : "x" "1811"
+/// @DnDArgument : "y" "2156"
+/// @DnDArgument : "sprite" "Spr_pontos_hud"
+/// @DnDSaveInfo : "sprite" "Spr_pontos_hud"
+draw_sprite(Spr_pontos_hud, 0, 1811, 2156);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 0FCD244A
+/// @DnDArgument : "x" "1820"
+/// @DnDArgument : "y" "2156"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "var" "global.pontos"
+draw_text(1820, 2156,  + string(global.pontos));
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 372AF534
+/// @DnDArgument : "font" "Font1"
+/// @DnDSaveInfo : "font" "Font1"
+draw_set_font(Font1);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 668986AC
+/// @DnDArgument : "color" "$FF0000FF"
+draw_set_colour($FF0000FF & $ffffff);
+var l668986AC_0=($FF0000FF >> 24);
+draw_set_alpha(l668986AC_0 / $ff);

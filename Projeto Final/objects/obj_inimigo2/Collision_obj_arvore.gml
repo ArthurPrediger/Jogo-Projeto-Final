@@ -26,8 +26,10 @@ if(hspeed > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4C82DD29
 	/// @DnDParent : 1D01157D
+	/// @DnDArgument : "value" "-1"
+	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "global.vida_arvore"
-	global.vida_arvore = 0;
+	global.vida_arvore += -1;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -58,6 +60,8 @@ if(hspeed < 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4F732D56
 	/// @DnDParent : 74C3EE27
+	/// @DnDArgument : "value" "-1"
+	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "global.vida_arvore"
-	global.vida_arvore = 0;
+	global.vida_arvore += -1;
 }

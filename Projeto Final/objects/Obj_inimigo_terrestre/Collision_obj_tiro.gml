@@ -2,8 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 55159C69
 /// @DnDArgument : "value" "10"
+/// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "var" "pontos"
-global.pontos = 10;
+global.pontos += 10;
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

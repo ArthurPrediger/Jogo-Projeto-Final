@@ -29,8 +29,8 @@ instance_create_layer(x + 0, y + 0, "Instances", Obj_explo);
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 74FEB337
+/// @DnDDisabled : 1
 /// @DnDArgument : "xpos" "random(room_width)"
 /// @DnDArgument : "ypos" "157"
 /// @DnDArgument : "objectid" "obj_inimigo2"
 /// @DnDSaveInfo : "objectid" "obj_inimigo2"
-instance_create_layer(random(room_width), 157, "Instances", obj_inimigo2);

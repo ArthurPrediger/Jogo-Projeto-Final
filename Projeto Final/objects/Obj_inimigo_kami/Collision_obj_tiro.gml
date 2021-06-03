@@ -2,8 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 51B527CF
 /// @DnDArgument : "value" "30"
+/// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "var" "pontos"
-global.pontos = 30;
+global.pontos += 30;
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
@@ -28,8 +29,8 @@ instance_create_layer(x + 0, y + 0, "Instances", Obj_explo);
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 74FEB337
+/// @DnDDisabled : 1
 /// @DnDArgument : "xpos" "2274"
 /// @DnDArgument : "ypos" "1075"
 /// @DnDArgument : "objectid" "Obj_inimigo_kami"
 /// @DnDSaveInfo : "objectid" "Obj_inimigo_kami"
-instance_create_layer(2274, 1075, "Instances", Obj_inimigo_kami);

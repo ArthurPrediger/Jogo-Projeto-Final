@@ -41,6 +41,7 @@
     {"id":{"name":"Spr_bloqueio_ilha","path":"sprites/Spr_bloqueio_ilha/Spr_bloqueio_ilha.yy",},"order":10,},
     {"id":{"name":"Spr_corestiles","path":"sprites/Spr_corestiles/Spr_corestiles.yy",},"order":3,},
     {"id":{"name":"Spr_arma_hud","path":"sprites/Spr_arma_hud/Spr_arma_hud.yy",},"order":19,},
+    {"id":{"name":"Spr_pontos_hud","path":"sprites/Spr_pontos_hud/Spr_pontos_hud.yy",},"order":21,},
     {"id":{"name":"spr_inimigo1_dir","path":"sprites/spr_inimigo1_dir/spr_inimigo1_dir.yy",},"order":4,},
     {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},"order":0,},
     {"id":{"name":"spr_inimigo2","path":"sprites/spr_inimigo2/spr_inimigo2.yy",},"order":5,},

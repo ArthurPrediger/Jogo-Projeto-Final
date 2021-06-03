@@ -4,7 +4,7 @@
     "path": "sprites/Spr_bloco/Spr_bloco.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
