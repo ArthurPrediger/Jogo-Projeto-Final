@@ -12,6 +12,14 @@ if(global.direcao_tiro == -1)
 	/// @DnDArgument : "speed" "-14"
 	/// @DnDArgument : "type" "1"
 	hspeed = -14;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+	/// @DnDVersion : 1
+	/// @DnDHash : 7CDAC5B3
+	/// @DnDParent : 328A167C
+	/// @DnDArgument : "angle" "270"
+	/// @DnDArgument : "angle_relative" "1"
+	image_angle += 270;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -28,6 +36,14 @@ if(global.direcao_tiro == 1)
 	/// @DnDArgument : "speed" "14"
 	/// @DnDArgument : "type" "1"
 	hspeed = 14;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+	/// @DnDVersion : 1
+	/// @DnDHash : 100443E7
+	/// @DnDParent : 2ED28618
+	/// @DnDArgument : "angle" "90"
+	/// @DnDArgument : "angle_relative" "1"
+	image_angle += 90;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -60,4 +76,12 @@ if(global.direcao_tiro == 2)
 	/// @DnDArgument : "speed" "14"
 	/// @DnDArgument : "type" "2"
 	vspeed = 14;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+	/// @DnDVersion : 1
+	/// @DnDHash : 0A17B908
+	/// @DnDParent : 4562E425
+	/// @DnDArgument : "angle" "180"
+	/// @DnDArgument : "angle_relative" "1"
+	image_angle += 180;
 }
