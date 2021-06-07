@@ -17,7 +17,7 @@
     {"id":{"name":"Spr_jogador_hud","path":"sprites/Spr_jogador_hud/Spr_jogador_hud.yy",},"order":18,},
     {"id":{"name":"Obj_hud","path":"objects/Obj_hud/Obj_hud.yy",},"order":15,},
     {"id":{"name":"Spr_explo","path":"sprites/Spr_explo/Spr_explo.yy",},"order":12,},
-    {"id":{"name":"time_inimigov1","path":"timelines/time_inimigov1/time_inimigov1.yy",},"order":0,},
+    {"id":{"name":"time_fase1","path":"timelines/time_fase1/time_fase1.yy",},"order":0,},
     {"id":{"name":"obj_gerenciador_estamina","path":"objects/obj_gerenciador_estamina/obj_gerenciador_estamina.yy",},"order":14,},
     {"id":{"name":"Obj_rastro_inimigo_terrestre","path":"objects/Obj_rastro_inimigo_terrestre/Obj_rastro_inimigo_terrestre.yy",},"order":9,},
     {"id":{"name":"Spr_explo_kami","path":"sprites/Spr_explo_kami/Spr_explo_kami.yy",},"order":16,},
@@ -62,8 +62,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"fase1","path":"rooms/fase1/fase1.yy",},},
     {"roomId":{"name":"fase2","path":"rooms/fase2/fase2.yy",},},
+    {"roomId":{"name":"fase1","path":"rooms/fase1/fase1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
