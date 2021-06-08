@@ -26,11 +26,10 @@ with(other) instance_destroy();
 /// @DnDSaveInfo : "objectid" "Obj_explo"
 instance_create_layer(x + 0, y + 0, "Instances", Obj_explo);
 
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 74FEB337
-/// @DnDDisabled : 1
-/// @DnDArgument : "xpos" "2274"
-/// @DnDArgument : "ypos" "1075"
-/// @DnDArgument : "objectid" "Obj_inimigo_kami"
-/// @DnDSaveInfo : "objectid" "Obj_inimigo_kami"
+/// @DnDHash : 6ED68A46
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "inimigos_mortos"
+global.inimigos_mortos += 1;

@@ -17,9 +17,9 @@ if(global.direcao_tiro == -1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7CDAC5B3
 	/// @DnDParent : 328A167C
-	/// @DnDArgument : "angle" "270"
+	/// @DnDArgument : "angle" "90"
 	/// @DnDArgument : "angle_relative" "1"
-	image_angle += 270;
+	image_angle += 90;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -41,9 +41,9 @@ if(global.direcao_tiro == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 100443E7
 	/// @DnDParent : 2ED28618
-	/// @DnDArgument : "angle" "90"
+	/// @DnDArgument : "angle" "270"
 	/// @DnDArgument : "angle_relative" "1"
-	image_angle += 90;
+	image_angle += 270;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

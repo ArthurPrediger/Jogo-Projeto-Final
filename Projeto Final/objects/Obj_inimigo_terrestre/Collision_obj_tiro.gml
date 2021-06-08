@@ -25,3 +25,11 @@ with(other) instance_destroy();
 /// @DnDArgument : "objectid" "Obj_explo"
 /// @DnDSaveInfo : "objectid" "Obj_explo"
 instance_create_layer(x + 0, y + 0, "Instances", Obj_explo);
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 5E3DCDAF
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "inimigos_mortos"
+global.inimigos_mortos += 1;

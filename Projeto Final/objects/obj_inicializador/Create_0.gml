@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 677D7101
-/// @DnDInput : 11
+/// @DnDInput : 10
 /// @DnDArgument : "value" "2"
 /// @DnDArgument : "value_1" "100"
 /// @DnDArgument : "value_2" "2"
@@ -18,8 +18,7 @@
 /// @DnDArgument : "var_6" "pontos"
 /// @DnDArgument : "var_7" "encher"
 /// @DnDArgument : "var_8" "inimigos_mortos"
-/// @DnDArgument : "var_9" "monstros_na_fase"
-/// @DnDArgument : "var_10" "monstros_mortos"
+/// @DnDArgument : "var_9" "inimigos_na_fase"
 global.vida_inimigo1 = 2;
 global.energia_armadura = 100;
 global.direcao_tiro = 2;
@@ -29,5 +28,4 @@ global.estamina_jogador = 100;
 global.pontos = 0;
 global.encher = false;
 global.inimigos_mortos = 0;
-global.monstros_na_fase = 0;
-global.monstros_mortos = 0;
+global.inimigos_na_fase = 0;

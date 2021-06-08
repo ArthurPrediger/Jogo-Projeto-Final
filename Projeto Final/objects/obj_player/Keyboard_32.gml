@@ -28,11 +28,11 @@ if(global.energia_armadura >= 5)
 			/// @DnDParent : 0D8A5499
 			/// @DnDArgument : "xpos" "8"
 			/// @DnDArgument : "xpos_relative" "1"
-			/// @DnDArgument : "ypos" "14"
+			/// @DnDArgument : "ypos" "-15"
 			/// @DnDArgument : "ypos_relative" "1"
 			/// @DnDArgument : "objectid" "obj_tiro"
 			/// @DnDSaveInfo : "objectid" "obj_tiro"
-			instance_create_layer(x + 8, y + 14, "Instances", obj_tiro);
+			instance_create_layer(x + 8, y + -15, "Instances", obj_tiro);
 		
 			/// @DnDAction : YoYo Games.Common.Set_Global
 			/// @DnDVersion : 1
@@ -77,11 +77,11 @@ if(global.energia_armadura >= 5)
 				/// @DnDParent : 4D20CEEC
 				/// @DnDArgument : "xpos" "-8"
 				/// @DnDArgument : "xpos_relative" "1"
-				/// @DnDArgument : "ypos" "-10"
+				/// @DnDArgument : "ypos" "15"
 				/// @DnDArgument : "ypos_relative" "1"
 				/// @DnDArgument : "objectid" "obj_tiro"
 				/// @DnDSaveInfo : "objectid" "obj_tiro"
-				instance_create_layer(x + -8, y + -10, "Instances", obj_tiro);
+				instance_create_layer(x + -8, y + 15, "Instances", obj_tiro);
 			
 				/// @DnDAction : YoYo Games.Common.Set_Global
 				/// @DnDVersion : 1
@@ -124,12 +124,12 @@ if(global.energia_armadura >= 5)
 					/// @DnDVersion : 1
 					/// @DnDHash : 362C4097
 					/// @DnDParent : 3EFA49A8
-					/// @DnDArgument : "xpos" "-1"
 					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos" "10"
 					/// @DnDArgument : "ypos_relative" "1"
 					/// @DnDArgument : "objectid" "obj_tiro"
 					/// @DnDSaveInfo : "objectid" "obj_tiro"
-					instance_create_layer(x + -1, y + 0, "Instances", obj_tiro);
+					instance_create_layer(x + 0, y + 10, "Instances", obj_tiro);
 				
 					/// @DnDAction : YoYo Games.Common.Set_Global
 					/// @DnDVersion : 1
@@ -172,12 +172,13 @@ if(global.energia_armadura >= 5)
 						/// @DnDVersion : 1
 						/// @DnDHash : 5AC77443
 						/// @DnDParent : 539FE003
-						/// @DnDArgument : "xpos" "7"
+						/// @DnDArgument : "xpos" "-1"
 						/// @DnDArgument : "xpos_relative" "1"
+						/// @DnDArgument : "ypos" "-2"
 						/// @DnDArgument : "ypos_relative" "1"
 						/// @DnDArgument : "objectid" "obj_tiro"
 						/// @DnDSaveInfo : "objectid" "obj_tiro"
-						instance_create_layer(x + 7, y + 0, "Instances", obj_tiro);
+						instance_create_layer(x + -1, y + -2, "Instances", obj_tiro);
 					
 						/// @DnDAction : YoYo Games.Common.Set_Global
 						/// @DnDVersion : 1
