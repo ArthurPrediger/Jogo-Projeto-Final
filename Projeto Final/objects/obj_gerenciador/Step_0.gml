@@ -5,16 +5,11 @@
 /// @DnDArgument : "op" "3"
 if(global.vida_arvore <= 0)
 {
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 6B3D6DCB
+	/// @DnDHash : 341CB084
 	/// @DnDParent : 7A7CB497
-	/// @DnDArgument : "code" "show_message("GAME OVER")"
-	show_message("GAME OVER")
-
-	/// @DnDAction : YoYo Games.Game.Restart_Game
-	/// @DnDVersion : 1
-	/// @DnDHash : 53907F12
-	/// @DnDParent : 7A7CB497
-	game_restart();
+	/// @DnDArgument : "room" "gameover"
+	/// @DnDSaveInfo : "room" "gameover"
+	room_goto(gameover);
 }
