@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_bloco",
+  "name": "obj_bloqueador_passagem",
   "tags": [],
   "resourceType": "GMObject",
 }
