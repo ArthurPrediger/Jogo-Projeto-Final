@@ -5,9 +5,10 @@
 /// @DnDArgument : "value" "global.inimigos_na_fase"
 if(global.inimigos_mortos == global.inimigos_na_fase)
 {
-	/// @DnDAction : YoYo Games.Rooms.Next_Room
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 3DC685D5
+	/// @DnDHash : 79603FBE
+	/// @DnDApplyTo : {obj_bloqueador_passagem}
 	/// @DnDParent : 57A0184E
-	room_goto_next();
+	with(obj_bloqueador_passagem) instance_destroy();
 }

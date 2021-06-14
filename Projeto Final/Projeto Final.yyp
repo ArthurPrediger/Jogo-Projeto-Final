@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Obj_inimigo_kami","path":"objects/Obj_inimigo_kami/Obj_inimigo_kami.yy",},"order":12,},
+    {"id":{"name":"obj_player_inicio","path":"objects/obj_player_inicio/obj_player_inicio.yy",},"order":27,},
     {"id":{"name":"Obj_trocar_fase","path":"objects/Obj_trocar_fase/Obj_trocar_fase.yy",},"order":16,},
     {"id":{"name":"mostrar_controles","path":"rooms/mostrar_controles/mostrar_controles.yy",},"order":7,},
     {"id":{"name":"Obj_gameover","path":"objects/Obj_gameover/Obj_gameover.yy",},"order":20,},
@@ -56,8 +57,9 @@
     {"id":{"name":"Spr_inimigo_kami","path":"sprites/Spr_inimigo_kami/Spr_inimigo_kami.yy",},"order":15,},
     {"id":{"name":"Obj_timeline_fase1","path":"objects/Obj_timeline_fase1/Obj_timeline_fase1.yy",},"order":17,},
     {"id":{"name":"Spr_game_over","path":"sprites/Spr_game_over/Spr_game_over.yy",},"order":27,},
+    {"id":{"name":"spr_lesma_esq","path":"sprites/spr_lesma_esq/spr_lesma_esq.yy",},"order":33,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":6,},
-    {"id":{"name":"Spr_inimigo_terrestre","path":"sprites/Spr_inimigo_terrestre/Spr_inimigo_terrestre.yy",},"order":8,},
+    {"id":{"name":"spr_lesma_dir","path":"sprites/spr_lesma_dir/spr_lesma_dir.yy",},"order":8,},
     {"id":{"name":"time_rastro","path":"timelines/time_rastro/time_rastro.yy",},"order":1,},
     {"id":{"name":"Spr_rastro_inimigo","path":"sprites/Spr_rastro_inimigo/Spr_rastro_inimigo.yy",},"order":9,},
     {"id":{"name":"Spr_bloqueio_ilha","path":"sprites/Spr_bloqueio_ilha/Spr_bloqueio_ilha.yy",},"order":10,},
