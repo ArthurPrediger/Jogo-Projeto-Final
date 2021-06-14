@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_inimigo_terrestre",
-    "path": "sprites/Spr_inimigo_terrestre/Spr_inimigo_terrestre.yy",
+    "name": "spr_lesma_dir",
+    "path": "sprites/spr_lesma_dir/spr_lesma_dir.yy",
   },
   "solid": false,
   "visible": true,
