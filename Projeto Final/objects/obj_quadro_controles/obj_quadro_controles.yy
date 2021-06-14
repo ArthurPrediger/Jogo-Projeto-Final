@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_quadro_controles",
+    "path": "sprites/spr_quadro_controles/spr_quadro_controles.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -27,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_hud",
+  "name": "obj_quadro_controles",
   "tags": [],
   "resourceType": "GMObject",
 }
