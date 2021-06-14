@@ -18,6 +18,6 @@ if(l577DA1BB_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1AD7B2F8
 	/// @DnDParent : 577DA1BB
-	/// @DnDArgument : "code" "mp_potential_step_object(obj_player.x ,obj_player.y, speed, obj_arvore);$(13_10)$(13_10)$(13_10)"
-	mp_potential_step_object(obj_player.x ,obj_player.y, speed, obj_arvore);
+	/// @DnDArgument : "code" "mp_potential_step_object(obj_player.x ,obj_player.y, speed, Obj_bloqueio_ilha);$(13_10)$(13_10)$(13_10)"
+	mp_potential_step_object(obj_player.x ,obj_player.y, speed, Obj_bloqueio_ilha);
 }

@@ -27,8 +27,8 @@ if(l577DA1BB_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 744E1BD1
 		/// @DnDParent : 285E01E3
-		/// @DnDArgument : "code" "mp_potential_step_object(obj_player.x, obj_player.y, speed, noone);"
-		mp_potential_step_object(obj_player.x, obj_player.y, speed, noone);
+		/// @DnDArgument : "code" "mp_potential_step_object(obj_player.x, obj_player.y, speed, obj_arvore);"
+		mp_potential_step_object(obj_player.x, obj_player.y, speed, obj_arvore);
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
@@ -41,7 +41,7 @@ if(l577DA1BB_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 5D888117
 		/// @DnDParent : 3D6DD6F0
-		/// @DnDArgument : "code" "mp_potential_step_object(obj_arvore.x, obj_arvore.y, speed, noone);"
-		mp_potential_step_object(obj_arvore.x, obj_arvore.y, speed, noone);
+		/// @DnDArgument : "code" "mp_potential_step_object(obj_arvore.x, obj_arvore.y, speed, obj_player);"
+		mp_potential_step_object(obj_arvore.x, obj_arvore.y, speed, obj_player);
 	}
 }
