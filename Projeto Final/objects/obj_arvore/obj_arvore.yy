@@ -5,7 +5,10 @@
   },
   "solid": true,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_arvore",
+    "path": "sprites/spr_arvore/spr_arvore.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
