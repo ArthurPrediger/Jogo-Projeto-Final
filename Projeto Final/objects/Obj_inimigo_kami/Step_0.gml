@@ -11,8 +11,8 @@ if(l577DA1BB_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 001FF552
 	/// @DnDParent : 577DA1BB
-	/// @DnDArgument : "speed" "5"
-	speed = 5;
+	/// @DnDArgument : "speed" "4 "
+	speed = 4 ;
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1

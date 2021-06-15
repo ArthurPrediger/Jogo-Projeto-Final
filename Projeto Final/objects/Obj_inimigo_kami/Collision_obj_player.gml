@@ -1,10 +1,19 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 6D4F93AB
-/// @DnDArgument : "value" "30"
-/// @DnDArgument : "value_relative" "1"
-/// @DnDArgument : "var" "estamina_jogador"
-global.estamina_jogador += 30;
+/// @DnDHash : 6D4BA8EE
+/// @DnDArgument : "var" "global.estamina_jogador"
+/// @DnDArgument : "op" "2"
+if(global.estamina_jogador > 0)
+{
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 6D4F93AB
+	/// @DnDParent : 6D4BA8EE
+	/// @DnDArgument : "value" "-30"
+	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "var" "estamina_jogador"
+	global.estamina_jogador += -30;
+}
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
