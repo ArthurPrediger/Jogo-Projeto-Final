@@ -54,12 +54,11 @@ if(global.estamina_jogador > 10)
 			/// @DnDAction : YoYo Games.Instances.Set_Sprite
 			/// @DnDVersion : 1
 			/// @DnDHash : 62C9C82E
+			/// @DnDDisabled : 1
 			/// @DnDParent : 431D50C8
 			/// @DnDArgument : "imageind" "30"
 			/// @DnDArgument : "spriteind" "spr_player"
 			/// @DnDSaveInfo : "spriteind" "spr_player"
-			sprite_index = spr_player;
-			image_index = 30;
 		}
 	}
 }
