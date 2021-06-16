@@ -3,8 +3,8 @@
 /// @DnDHash : 447F06A6
 /// @DnDArgument : "var" "global.vida_arvore"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "80"
-if(global.vida_arvore < 80)
+/// @DnDArgument : "value" "75"
+if(global.vida_arvore < 75)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

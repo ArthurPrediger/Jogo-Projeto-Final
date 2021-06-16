@@ -16,13 +16,6 @@ if(l577DA1BB_0)
 	/// @DnDArgument : "value" "15"
 	if(global.estamina_jogador > 15)
 	{
-		/// @DnDAction : YoYo Games.Movement.Set_Speed
-		/// @DnDVersion : 1
-		/// @DnDHash : 13AD2501
-		/// @DnDParent : 285E01E3
-		/// @DnDArgument : "speed" "3"
-		speed = 3;
-	
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1
 		/// @DnDHash : 744E1BD1
