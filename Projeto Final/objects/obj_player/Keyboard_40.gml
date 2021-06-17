@@ -53,9 +53,9 @@ if(global.energia_armadura >= 5)
 		/// @DnDHash : 57531F16
 		/// @DnDParent : 27C9DF9B
 		/// @DnDArgument : "imageind" "30"
-		/// @DnDArgument : "spriteind" "spr_player"
-		/// @DnDSaveInfo : "spriteind" "spr_player"
-		sprite_index = spr_player;
+		/// @DnDArgument : "spriteind" "Spr_jogador_arma1_baixo"
+		/// @DnDSaveInfo : "spriteind" "Spr_jogador_arma1_baixo"
+		sprite_index = Spr_jogador_arma1_baixo;
 		image_index = 30;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
