@@ -25,13 +25,13 @@ if(global.energia_armadura >= 5)
 		/// @DnDVersion : 1
 		/// @DnDHash : 76BA1C3F
 		/// @DnDParent : 186C0A13
-		/// @DnDArgument : "xpos" "-1"
+		/// @DnDArgument : "xpos" "17"
 		/// @DnDArgument : "xpos_relative" "1"
-		/// @DnDArgument : "ypos" "-2"
+		/// @DnDArgument : "ypos" "-25"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "obj_tiro"
 		/// @DnDSaveInfo : "objectid" "obj_tiro"
-		instance_create_layer(x + -1, y + -2, "Instances", obj_tiro);
+		instance_create_layer(x + 17, y + -25, "Instances", obj_tiro);
 	
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
@@ -63,6 +63,7 @@ if(global.energia_armadura >= 5)
 		/// @DnDVersion : 1
 		/// @DnDHash : 3BE580C4
 		/// @DnDParent : 186C0A13
-		alarm_set(0, 30);
+		/// @DnDArgument : "steps" "15"
+		alarm_set(0, 15);
 	}
 }

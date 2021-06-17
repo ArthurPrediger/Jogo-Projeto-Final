@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 29,
-    "yorigin": 45,
+    "yorigin": 50,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_player_arma1_esquerda","path":"sprites/Spr_player_arma1_esquerda/Spr_player_arma1_esquerda.yy",},

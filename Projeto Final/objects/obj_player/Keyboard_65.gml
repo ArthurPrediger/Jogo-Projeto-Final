@@ -42,23 +42,6 @@ if(global.estamina_jogador > 10)
 			/// @DnDArgument : "y_relative" "1"
 			x += -5;
 			y += 0;
-		
-			/// @DnDAction : YoYo Games.Common.Set_Global
-			/// @DnDVersion : 1
-			/// @DnDHash : 09CB4DEE
-			/// @DnDParent : 3A8BA9E7
-			/// @DnDArgument : "value" "-1"
-			/// @DnDArgument : "var" "direcao_tiro"
-			global.direcao_tiro = -1;
-		
-			/// @DnDAction : YoYo Games.Instances.Set_Sprite
-			/// @DnDVersion : 1
-			/// @DnDHash : 21C4E69E
-			/// @DnDDisabled : 1
-			/// @DnDParent : 3A8BA9E7
-			/// @DnDArgument : "imageind" "30"
-			/// @DnDArgument : "spriteind" "Spr_player_arma1_esquerda"
-			/// @DnDSaveInfo : "spriteind" "Spr_player_arma1_esquerda"
 		}
 	}
 }
