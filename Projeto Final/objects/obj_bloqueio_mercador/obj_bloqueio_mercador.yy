@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "Spr_rastro_inimigo",
-    "path": "sprites/Spr_rastro_inimigo/Spr_rastro_inimigo.yy",
+    "name": "spr_bloqueio_mercador",
+    "path": "sprites/spr_bloqueio_mercador/spr_bloqueio_mercador.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_rastro_inimigo_terrestre",
+  "name": "obj_bloqueio_mercador",
   "tags": [],
   "resourceType": "GMObject",
 }

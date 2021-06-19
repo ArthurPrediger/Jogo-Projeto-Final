@@ -23,11 +23,11 @@ draw_healthbar(150, 990, 450, 1030, global.energia_armadura, $FFFFFFFF & $FFFFFF
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 310169BA
-/// @DnDArgument : "x" "40"
-/// @DnDArgument : "y" "850"
+/// @DnDArgument : "x" "95"
+/// @DnDArgument : "y" "950"
 /// @DnDArgument : "sprite" "Spr_jogador_hud"
 /// @DnDSaveInfo : "sprite" "Spr_jogador_hud"
-draw_sprite(Spr_jogador_hud, 0, 40, 850);
+draw_sprite(Spr_jogador_hud, 0, 95, 950);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1

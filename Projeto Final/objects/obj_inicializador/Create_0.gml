@@ -32,3 +32,10 @@ global.encher = false;
 global.inimigos_mortos = 0;
 global.inimigos_na_fase = 18;
 global.inimigos_mortos = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 28E4B89A
+/// @DnDArgument : "value" " 1"
+/// @DnDArgument : "var" "proxima_fase"
+global.proxima_fase =  1;

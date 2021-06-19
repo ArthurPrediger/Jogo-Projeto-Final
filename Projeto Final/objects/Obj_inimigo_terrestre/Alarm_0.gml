@@ -1,5 +1,6 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2E4EE44B
-/// @DnDApplyTo : {Obj_rastro_inimigo_terrestre}
-with(Obj_rastro_inimigo_terrestre) instance_destroy();
+/// @DnDHash : 624A84DE
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "colocar_rastro"
+colocar_rastro = 1;

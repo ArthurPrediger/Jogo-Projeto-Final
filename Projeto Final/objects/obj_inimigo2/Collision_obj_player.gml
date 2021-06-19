@@ -96,10 +96,10 @@ if(vspeed < 0)
 	/// @DnDParent : 4E8890D6
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-100"
+	/// @DnDArgument : "y" "100"
 	/// @DnDArgument : "y_relative" "1"
 	x += 0;
-	y += -100;
+	y += 100;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
@@ -130,10 +130,10 @@ if(vspeed > 0)
 	/// @DnDParent : 2D21F6EB
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "100"
+	/// @DnDArgument : "y" "-100"
 	/// @DnDArgument : "y_relative" "1"
 	x += 0;
-	y += 100;
+	y += -100;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
