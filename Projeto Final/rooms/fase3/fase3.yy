@@ -16,7 +16,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":1280.0,"resourceVersion":"1.0","name":"inst_5ECFDC80","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":992.0,"resourceVersion":"1.0","name":"inst_2CF891E0","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_inicializador","path":"objects/obj_inicializador/obj_inicializador.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":-128.0,"resourceVersion":"1.0","name":"inst_20A1D900","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_gerenciador","path":"objects/obj_gerenciador/obj_gerenciador.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":-128.0,"resourceVersion":"1.0","name":"inst_1B15956F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_bloqueio_ilha","path":"objects/Obj_bloqueio_ilha/Obj_bloqueio_ilha.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":497.0,"y":496.0,"resourceVersion":"1.0","name":"inst_18021242","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_bloqueio_ilha","path":"objects/Obj_bloqueio_ilha/Obj_bloqueio_ilha.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":561.0,"y":496.0,"resourceVersion":"1.0","name":"inst_70A66173","tags":[],"resourceType":"GMRInstance",},
@@ -562,7 +561,6 @@
   "instanceCreationOrder": [
     {"name":"inst_5ECFDC80","path":"rooms/fase3/fase3.yy",},
     {"name":"inst_2CF891E0","path":"rooms/fase3/fase3.yy",},
-    {"name":"inst_20A1D900","path":"rooms/fase3/fase3.yy",},
     {"name":"inst_1B15956F","path":"rooms/fase3/fase3.yy",},
     {"name":"inst_18021242","path":"rooms/fase3/fase3.yy",},
     {"name":"inst_70A66173","path":"rooms/fase3/fase3.yy",},

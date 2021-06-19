@@ -36,3 +36,10 @@ instance_create_layer(x + 0, y + 0, "Instances", Obj_explo_kami);
 /// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "var" "inimigos_mortos"
 global.inimigos_mortos += 1;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 5E7B63DA
+/// @DnDArgument : "soundid" "explo_kami"
+/// @DnDSaveInfo : "soundid" "explo_kami"
+audio_play_sound(explo_kami, 0, 0);

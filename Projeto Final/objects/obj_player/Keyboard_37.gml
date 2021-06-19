@@ -59,6 +59,14 @@ if(global.energia_armadura >= 5)
 		sprite_index = Spr_player_arma1_esquerda;
 		image_index = 30;
 	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 6CEEF10D
+		/// @DnDParent : 478FB86E
+		/// @DnDArgument : "soundid" "tiro_arma1"
+		/// @DnDSaveInfo : "soundid" "tiro_arma1"
+		audio_play_sound(tiro_arma1, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 763FD382
