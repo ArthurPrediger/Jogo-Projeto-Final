@@ -3,7 +3,7 @@
     "name": "Spr_mercador",
     "path": "sprites/Spr_mercador/Spr_mercador.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

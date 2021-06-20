@@ -3,14 +3,14 @@
 /// @DnDHash : 44183F6C
 /// @DnDArgument : "x" "-40"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-100"
+/// @DnDArgument : "y" "-120"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "sprite" "Spr_pontos_hud"
 /// @DnDSaveInfo : "sprite" "Spr_pontos_hud"
 var l44183F6C_0 = sprite_get_width(Spr_pontos_hud);
 var l44183F6C_1 = 0;
 for(var l44183F6C_2 = 1; l44183F6C_2 > 0; --l44183F6C_2) {
-	draw_sprite(Spr_pontos_hud, 0, x + -40 + l44183F6C_1, y + -100);
+	draw_sprite(Spr_pontos_hud, 0, x + -40 + l44183F6C_1, y + -120);
 	l44183F6C_1 += l44183F6C_0;
 }
 
@@ -19,11 +19,11 @@ for(var l44183F6C_2 = 1; l44183F6C_2 > 0; --l44183F6C_2) {
 /// @DnDHash : 46590E61
 /// @DnDArgument : "x" "-20"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-90"
+/// @DnDArgument : "y" "-110"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "150"
-draw_text(x + -20, y + -90,  + string(150));
+draw_text(x + -20, y + -110,  + string(150));
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

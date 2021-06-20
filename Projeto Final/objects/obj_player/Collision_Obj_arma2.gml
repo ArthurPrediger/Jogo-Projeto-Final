@@ -6,13 +6,6 @@
 /// @DnDArgument : "value" "150"
 if(global.pontos >= 150)
 {
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 13DF2C80
-	/// @DnDApplyTo : other
-	/// @DnDParent : 7C973EAA
-	with(other) instance_destroy();
-
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 14B6FDD9
@@ -21,4 +14,12 @@ if(global.pontos >= 150)
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "pontos"
 	global.pontos += -150;
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 1C757542
+	/// @DnDParent : 7C973EAA
+	/// @DnDArgument : "value" "true"
+	/// @DnDArgument : "var" "comprou_arma2"
+	global.comprou_arma2 = true;
 }

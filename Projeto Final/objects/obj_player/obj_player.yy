@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player",
-    "path": "sprites/spr_player/spr_player.yy",
+    "name": "Spr_jogador_arma1_baixo",
+    "path": "sprites/Spr_jogador_arma1_baixo/Spr_jogador_arma1_baixo.yy",
   },
   "solid": false,
   "visible": true,
