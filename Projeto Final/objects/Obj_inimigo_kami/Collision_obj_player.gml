@@ -43,3 +43,10 @@ global.inimigos_mortos += 1;
 /// @DnDArgument : "soundid" "explo_kami"
 /// @DnDSaveInfo : "soundid" "explo_kami"
 audio_play_sound(explo_kami, 0, 0);
+
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0FECD0A4
+/// @DnDArgument : "soundid" "som_inimigo_kami"
+/// @DnDSaveInfo : "soundid" "som_inimigo_kami"
+audio_stop_sound(som_inimigo_kami);

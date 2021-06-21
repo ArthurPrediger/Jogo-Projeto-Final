@@ -34,6 +34,13 @@ instance_create_layer(x + 0, y + 0, "Instances", Obj_explo);
 /// @DnDArgument : "var" "inimigos_mortos"
 global.inimigos_mortos += 1;
 
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 21532CB8
+/// @DnDArgument : "soundid" "som_inimigo_kami"
+/// @DnDSaveInfo : "soundid" "som_inimigo_kami"
+audio_stop_sound(som_inimigo_kami);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 756F55F3

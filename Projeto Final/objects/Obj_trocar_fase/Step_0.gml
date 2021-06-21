@@ -25,11 +25,11 @@ if(global.proxima_fase == 1)
 		/// @DnDHash : 5BCEE7E0
 		/// @DnDInput : 2
 		/// @DnDParent : 57A0184E
-		/// @DnDArgument : "value_1" "20"
+		/// @DnDArgument : "value_1" "21"
 		/// @DnDArgument : "var" "inimigos_mortos"
 		/// @DnDArgument : "var_1" "inimigos_na_fase"
 		global.inimigos_mortos = 0;
-		global.inimigos_na_fase = 20;
+		global.inimigos_na_fase = 21;
 	
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
