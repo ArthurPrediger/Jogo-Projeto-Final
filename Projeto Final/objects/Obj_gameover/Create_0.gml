@@ -11,3 +11,10 @@ audio_stop_sound(trilha_jogo);
 /// @DnDArgument : "soundid" "trilha_boss"
 /// @DnDSaveInfo : "soundid" "trilha_boss"
 audio_stop_sound(trilha_boss);
+
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 23205D29
+/// @DnDArgument : "soundid" "som_inimigo_kami"
+/// @DnDSaveInfo : "soundid" "som_inimigo_kami"
+audio_stop_sound(som_inimigo_kami);
