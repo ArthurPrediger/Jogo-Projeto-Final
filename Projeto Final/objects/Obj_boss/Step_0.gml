@@ -21,11 +21,13 @@ if(global.vida_boss <= 0)
 	/// @DnDSaveInfo : "objectid" "Obj_explo_boss"
 	instance_create_layer(x + 0, y + 0, "Instances", Obj_explo_boss);
 
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
-	/// @DnDHash : 6573D683
-	/// @DnDDisabled : 1
+	/// @DnDHash : 7D0FEB2E
 	/// @DnDParent : 1CDD8BEF
+	/// @DnDArgument : "steps" "120"
+	/// @DnDArgument : "alarm" "7"
+	alarm_set(7, 120);
 }
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
