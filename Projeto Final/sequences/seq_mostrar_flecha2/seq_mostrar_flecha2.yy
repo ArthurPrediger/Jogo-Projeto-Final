@@ -67,7 +67,7 @@
     "path": "folders/Sequences.yy",
   },
   "resourceVersion": "1.3",
-  "name": "seq_mostrar_flecha",
+  "name": "seq_mostrar_flecha2",
   "tags": [],
   "resourceType": "GMSequence",
 }

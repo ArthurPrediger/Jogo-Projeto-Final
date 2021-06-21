@@ -12,11 +12,6 @@ global.vida_boss += -10;
 /// @DnDApplyTo : other
 with(other) instance_destroy();
 
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 732A2E87
-instance_destroy();
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7695F57A
