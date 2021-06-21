@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 4F3BF984
+/// @DnDArgument : "soundid" "monstro_som"
+/// @DnDSaveInfo : "soundid" "monstro_som"
+audio_play_sound(monstro_som, 0, 0);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 15D8291E

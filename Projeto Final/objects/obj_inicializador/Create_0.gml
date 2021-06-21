@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 677D7101
-/// @DnDInput : 15
+/// @DnDInput : 16
 /// @DnDArgument : "value" "2"
 /// @DnDArgument : "value_1" "100"
 /// @DnDArgument : "value_2" "2"
@@ -15,6 +15,7 @@
 /// @DnDArgument : "value_12" "1"
 /// @DnDArgument : "value_13" "false"
 /// @DnDArgument : "value_14" "false"
+/// @DnDArgument : "value_15" "false"
 /// @DnDArgument : "var" "vida_inimigo1"
 /// @DnDArgument : "var_1" "energia_armadura"
 /// @DnDArgument : "var_2" "direcao_tiro"
@@ -30,6 +31,7 @@
 /// @DnDArgument : "var_12" "arma_equipada"
 /// @DnDArgument : "var_13" "comprou_arma2"
 /// @DnDArgument : "var_14" "mostrar_flecha"
+/// @DnDArgument : "var_15" "boss_morreu"
 global.vida_inimigo1 = 2;
 global.energia_armadura = 100;
 global.direcao_tiro = 2;
@@ -45,3 +47,4 @@ global.vida_boss = 100;
 global.arma_equipada = 1;
 global.comprou_arma2 = false;
 global.mostrar_flecha = false;
+global.boss_morreu = false;

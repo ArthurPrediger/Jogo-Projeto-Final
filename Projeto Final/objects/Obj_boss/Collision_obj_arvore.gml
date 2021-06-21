@@ -6,6 +6,13 @@
 /// @DnDArgument : "var" "vida_arvore"
 global.vida_arvore += -1;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 6A61E576
+/// @DnDArgument : "soundid" "monstro_som"
+/// @DnDSaveInfo : "soundid" "monstro_som"
+audio_play_sound(monstro_som, 0, 0);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1D01157D

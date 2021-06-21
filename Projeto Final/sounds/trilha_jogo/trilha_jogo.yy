@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "trilha_jogo",
-  "duration": 0.0,
+  "soundFile": "trilha_jogo.mp3",
+  "duration": 192.161728,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

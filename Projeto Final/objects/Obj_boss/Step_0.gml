@@ -21,13 +21,21 @@ if(global.vida_boss <= 0)
 	/// @DnDSaveInfo : "objectid" "Obj_explo_boss"
 	instance_create_layer(x + 0, y + 0, "Instances", Obj_explo_boss);
 
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
 	/// @DnDVersion : 1
-	/// @DnDHash : 7D0FEB2E
+	/// @DnDHash : 4303D54A
 	/// @DnDParent : 1CDD8BEF
-	/// @DnDArgument : "steps" "120"
-	/// @DnDArgument : "alarm" "7"
-	alarm_set(7, 120);
+	/// @DnDArgument : "soundid" "trilha_boss"
+	/// @DnDSaveInfo : "soundid" "trilha_boss"
+	audio_stop_sound(trilha_boss);
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 14DB0BED
+	/// @DnDParent : 1CDD8BEF
+	/// @DnDArgument : "value" "true"
+	/// @DnDArgument : "var" "boss_morreu"
+	global.boss_morreu = true;
 }
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists

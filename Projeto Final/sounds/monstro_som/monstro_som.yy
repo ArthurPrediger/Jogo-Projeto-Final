@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.61,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "monstro_som",
-  "duration": 0.0,
+  "soundFile": "monstro_som.mp3",
+  "duration": 1.4417,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

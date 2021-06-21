@@ -10,3 +10,11 @@ direction = 90;
 /// @DnDArgument : "speed" "-1.3"
 /// @DnDArgument : "type" "2"
 vspeed = -1.3;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 2F20531C
+/// @DnDArgument : "soundid" "creditos"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "soundid" "creditos"
+audio_play_sound(creditos, 0, 1);

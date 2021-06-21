@@ -157,9 +157,9 @@ else
 				/// @DnDVersion : 1
 				/// @DnDHash : 54B9A7DB
 				/// @DnDParent : 260FC91B
-				/// @DnDArgument : "soundid" "tiro_arma1"
-				/// @DnDSaveInfo : "soundid" "tiro_arma1"
-				audio_play_sound(tiro_arma1, 0, 0);
+				/// @DnDArgument : "soundid" "som_arma2"
+				/// @DnDSaveInfo : "soundid" "som_arma2"
+				audio_play_sound(som_arma2, 0, 0);
 			
 				/// @DnDAction : YoYo Games.Instances.Set_Alarm
 				/// @DnDVersion : 1
