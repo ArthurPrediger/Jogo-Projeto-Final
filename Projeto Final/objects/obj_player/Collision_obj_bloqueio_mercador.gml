@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 792A5CC0
+/// @DnDArgument : "value" "100"
+/// @DnDArgument : "var" "vida_arvore"
+global.vida_arvore = 100;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 04C68EAD

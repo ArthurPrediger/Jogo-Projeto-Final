@@ -54,5 +54,13 @@ if(global.proxima_fase == 2)
 		/// @DnDApplyTo : {obj_bloqueador_passagem}
 		/// @DnDParent : 75A255C9
 		with(obj_bloqueador_passagem) instance_destroy();
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 4BC8F814
+		/// @DnDParent : 75A255C9
+		/// @DnDArgument : "value" "true "
+		/// @DnDArgument : "var" "mostrar_flecha"
+		global.mostrar_flecha = true ;
 	}
 }
