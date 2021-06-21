@@ -4,11 +4,3 @@
 /// @DnDArgument : "room" "mercador"
 /// @DnDSaveInfo : "room" "mercador"
 room_goto(mercador);
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 2B371336
-/// @DnDArgument : "value" "1"
-/// @DnDArgument : "value_relative" "1"
-/// @DnDArgument : "var" "proxima_fase"
-global.proxima_fase += 1;

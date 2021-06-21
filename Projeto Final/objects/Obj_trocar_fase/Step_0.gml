@@ -25,19 +25,24 @@ if(global.proxima_fase == 1)
 		/// @DnDHash : 5BCEE7E0
 		/// @DnDInput : 2
 		/// @DnDParent : 57A0184E
-		/// @DnDArgument : "value_1" "21"
+		/// @DnDArgument : "value_1" "20"
 		/// @DnDArgument : "var" "inimigos_mortos"
 		/// @DnDArgument : "var_1" "inimigos_na_fase"
 		global.inimigos_mortos = 0;
-		global.inimigos_na_fase = 21;
+		global.inimigos_na_fase = 20;
 	
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
 		/// @DnDHash : 0C16FF16
+		/// @DnDInput : 2
 		/// @DnDParent : 57A0184E
 		/// @DnDArgument : "value" "true"
+		/// @DnDArgument : "value_1" "1"
+		/// @DnDArgument : "value_relative_1" "1"
 		/// @DnDArgument : "var" "mostrar_flecha"
+		/// @DnDArgument : "var_1" "proxima_fase"
 		global.mostrar_flecha = true;
+		global.proxima_fase += 1;
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -102,10 +107,15 @@ if(global.proxima_fase == 2)
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
 		/// @DnDHash : 4BC8F814
+		/// @DnDInput : 2
 		/// @DnDParent : 75A255C9
 		/// @DnDArgument : "value" "true "
+		/// @DnDArgument : "value_1" "1"
+		/// @DnDArgument : "value_relative_1" "1"
 		/// @DnDArgument : "var" "mostrar_flecha"
+		/// @DnDArgument : "var_1" "proxima_fase"
 		global.mostrar_flecha = true ;
+		global.proxima_fase += 1;
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -122,17 +132,17 @@ if(global.proxima_fase == 2)
 			/// @DnDArgument : "xpos" "1600"
 			/// @DnDArgument : "ypos" "1030"
 			/// @DnDArgument : "var" "mostrar"
-			/// @DnDArgument : "sequenceid" "seq_mostrar_flecha"
+			/// @DnDArgument : "sequenceid" "seq_mostrar_flecha2"
 			/// @DnDArgument : "layer" ""Assets_2""
-			/// @DnDSaveInfo : "sequenceid" "seq_mostrar_flecha"
-			mostrar = layer_sequence_create("Assets_2", 1600, 1030, seq_mostrar_flecha);
+			/// @DnDSaveInfo : "sequenceid" "seq_mostrar_flecha2"
+			mostrar = layer_sequence_create("Assets_2", 1600, 1030, seq_mostrar_flecha2);
 		
 			/// @DnDAction : YoYo Games.Sequences.Sequence_Play
 			/// @DnDVersion : 1
 			/// @DnDHash : 53FA39BB
 			/// @DnDParent : 47753608
-			/// @DnDArgument : "var" "seq_mostrar_flecha"
-			layer_sequence_play(seq_mostrar_flecha);
+			/// @DnDArgument : "var" "seq_mostrar_flecha2"
+			layer_sequence_play(seq_mostrar_flecha2);
 		
 			/// @DnDAction : YoYo Games.Common.Set_Global
 			/// @DnDVersion : 1
