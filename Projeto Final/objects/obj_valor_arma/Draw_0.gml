@@ -26,9 +26,9 @@ draw_text(x + -10, y + 0,  + string(200));
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 4E201549
-/// @DnDArgument : "color" "$FF0000FF"
-draw_set_colour($FF0000FF & $ffffff);
-var l4E201549_0=($FF0000FF >> 24);
+/// @DnDArgument : "color" "$FFE6E6E6"
+draw_set_colour($FFE6E6E6 & $ffffff);
+var l4E201549_0=($FFE6E6E6 >> 24);
 draw_set_alpha(l4E201549_0 / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font

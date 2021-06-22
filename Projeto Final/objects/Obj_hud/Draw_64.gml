@@ -92,7 +92,7 @@ draw_set_font(Font1);
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 39154660
-/// @DnDArgument : "color" "$FF0000FF"
-draw_set_colour($FF0000FF & $ffffff);
-var l39154660_0=($FF0000FF >> 24);
+/// @DnDArgument : "color" "$FFE6E6E6"
+draw_set_colour($FFE6E6E6 & $ffffff);
+var l39154660_0=($FFE6E6E6 >> 24);
 draw_set_alpha(l39154660_0 / $ff);

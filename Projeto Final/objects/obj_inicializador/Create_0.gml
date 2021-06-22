@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 677D7101
-/// @DnDInput : 18
+/// @DnDInput : 19
 /// @DnDArgument : "value" "2"
 /// @DnDArgument : "value_1" "100"
 /// @DnDArgument : "value_2" "2"
@@ -18,6 +18,7 @@
 /// @DnDArgument : "value_15" "false"
 /// @DnDArgument : "value_16" "false"
 /// @DnDArgument : "value_17" "false"
+/// @DnDArgument : "value_18" "20"
 /// @DnDArgument : "var" "vida_inimigo1"
 /// @DnDArgument : "var_1" "energia_armadura"
 /// @DnDArgument : "var_2" "direcao_tiro"
@@ -36,6 +37,7 @@
 /// @DnDArgument : "var_15" "boss_morreu"
 /// @DnDArgument : "var_16" "comprou_upgrade_estamina"
 /// @DnDArgument : "var_17" "comprou_upgrade_energia"
+/// @DnDArgument : "var_18" "inimigos_na_fase2"
 global.vida_inimigo1 = 2;
 global.energia_armadura = 100;
 global.direcao_tiro = 2;
@@ -54,3 +56,4 @@ global.mostrar_flecha = false;
 global.boss_morreu = false;
 global.comprou_upgrade_estamina = false;
 global.comprou_upgrade_energia = false;
+global.inimigos_na_fase2 = 20;
